@@ -1,13 +1,13 @@
-import React from 'react';
-import { LinearGradient } from 'expo-linear-gradient';
-import Content from './Content';
+import React from "react";
+import { LinearGradient } from "expo-linear-gradient";
+import Content from "./Content";
 
 const AppGradient = ({
-    children, 
-    colors,
+  children,
+  colors,
 }: {
-    children: any;
-    colors: string[];
+  children: any;
+  colors: string[];
 }) => {
   return (
     <LinearGradient colors={colors} className="flex-1">
