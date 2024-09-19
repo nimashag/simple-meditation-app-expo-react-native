@@ -7,7 +7,7 @@ import React, { useContext } from "react";
 import { Pressable, Text, View } from "react-native";
 
 const AdjustMeditationDuration = () => {
-    // const { setDuration } = useContext(TimerContext);
+    const { setDuration } = useContext(TimerContext);
 
     const handlePress = (duration: number) => {
         setDuration(duration);
